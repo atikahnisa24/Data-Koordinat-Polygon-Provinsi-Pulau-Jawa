@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Gelora Bung Karno</name>
+    <Style id="poly-A52714-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d1427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-A52714-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d1427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-A52714-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A52714-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A52714-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Gelora Bung Karno</name>
+      <styleUrl>#poly-A52714-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.7983024,-6.2146173,0
+              106.7983238,-6.2158972,0
+              106.7984526,-6.2166225,0
+              106.7983453,-6.2203342,0
+              106.7985169,-6.2206755,0
+              106.8005125,-6.2214647,0
+              106.8031303,-6.2225739,0
+              106.8038384,-6.2234485,0
+              106.804804,-6.2247071,0
+              106.8087093,-6.2219553,0
+              106.8082587,-6.2211021,0
+              106.8082587,-6.2199289,0
+              106.8082802,-6.2175824,0
+              106.8082158,-6.2157906,0
+              106.8069283,-6.2158546,0
+              106.8067996,-6.2156412,0
+              106.8063704,-6.2155986,0
+              106.8061559,-6.2155133,0
+              106.80607,-6.2146173,0
+              106.8062417,-6.2144467,0
+              106.8062846,-6.2134868,0
+              106.8061129,-6.2128041,0
+              106.8051259,-6.2129748,0
+              106.7983024,-6.2146173,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
